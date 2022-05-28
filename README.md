@@ -28,5 +28,5 @@ Some details were left out intentionally to keep simulating the lyfecicle of sof
 
 ![Homepage design](./src/resources/Welcome%20Page.png)
 
-![Product pickup design](./src/resources/Product%20Popout.png)
+![Product pickup design](./src/resources/Order%20Page.png)
 

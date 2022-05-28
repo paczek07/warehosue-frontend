@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    backgroundImage:{
+      'img_pattern': "url('./resources/background.jpg')",
+    },
     colors:{
       white_bg: '#F8F8F8',
       grey_accent: '#e7e7e7',
