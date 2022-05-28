@@ -24,9 +24,9 @@ Now after one year I have decided to improve it making it a full stack project a
 The design was made using sketch mocking software for macOS, the first iteration was simple with big major UI/UX flaws, for this improved project many of this flaws were fixed trying to keep the theme of the project intact, this was done with the purpose to not change the essence of the project just to correct issues.
 Some details were left out intentionally to keep simulating the lyfecicle of software development where after completing the minnimum requirements, then maintainance and improvement and adding features are developed.
 
-[Login design](https://github.com/paczek07/warehosue-frontend/blob/main/src/resources/Login%20Screen.png?raw=true)
+[Login design](./src/resources/Login%20Screen.png)
 
-[Homepage design](https://github.com/paczek07/warehosue-frontend/blob/main/src/resources/Welcome%20Page.png?raw=true)
+[Homepage design](./src/resources/Welcome%20Page.png)
 
-[Product pickup design](https://github.com/paczek07/warehosue-frontend/blob/main/src/resources/Order%20Page.png?raw=true)
+[Product pickup design](./src/resources/Product%20Popout.png)
 
