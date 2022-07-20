@@ -4,29 +4,32 @@ import OrderLi from '../components/OrderLi'
 const Home = () => {
     return (
         <div className='lg:flex md:flex-row justify-between'>
+            <button className="rounded-sm w-40 py-1 tracking-widest font-light bg-main_purple text-grey_accent" type="submit">
+                Temp action = Add unprocessed
+            </button>
             <div className='hidden md:w-1/5 md:h-screen lg:block'>
                 <div className='bg-img_pattern w-full h-full fixed bg-cover  -z-30'></div>
                 <div className='bg-dark_purple w-full h-full fixed bg-opacity-50 -z-30'></div>
             </div>
             <div className='lg:w-4/5 bg-white_bg'>
                 {/*Headbar*/}
-                <div className='flex justify-between py-4 mx-5'>
+                <div className='flex align-middle justify-between py-4 mx-5'>
                     <h1 className='text-lg text-dark_purple font-medium tracking-wide'>Welcome, username</h1>
                     <button className='text-sm text-light_font tracking-wide font-light '>Logout</button>
                 </div>
                 {/* Content */}
                 <div>
-                    <div className='flex flex-row justify-center max-h-screen pt-5 '>
+                    <div className='flex flex-row  justify-center max-h-screen pt-5 '>
                         {/* Orders HIDDEN SMALL SCREENS */}
-                        <div className='lg:w-2/3 py-3'>
-                            <div className='flex flex-col rounded-lg h-full mx-5 px-4 py-6 bg-grey_accent overflow-hidden hidden lg:block'>
+                        <div className='lg:w-2/3 py-3 hidden lg:block'>
+                            <div className='flex flex-col rounded-lg h-full mx-5 px-4 py-6 bg-grey_accent overflow-hidden'>
                                 <h1 className='text-3xl font-light text-light_font px-1'>Orders</h1>
-                                <div className='flex justify-around self-end text-sm text-light_font w-44 mb-2'>
+                                <div className='flex justify-around text-sm self-end  text-light_font w-44 mb-4'>
                                     <button>all</button>
                                     <button>Unprocessed</button>
                                     <button>Shipped</button>
                                 </div>
-                                <div className='px-1 overflow-auto overflow-x-hidden'>
+                                <div className=' overflow-auto overflow-x-hidden'>
                                     <ul className='grid grid-cols-1 gap-2'>
                                         <OrderLi />
                                         <OrderLi />
